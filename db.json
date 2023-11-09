@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "daffa",
+      "role": "admin",
+      "email": "daffa@gmail.com",
+      "password": "daffa12345"
+    }
+  ],
+  "vaksin": [
+    {
+      "id": 1,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": false
+    }
+  ]
+}
