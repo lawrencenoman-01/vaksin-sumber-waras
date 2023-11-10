@@ -13,8 +13,11 @@ import NightsStayIcon from '@mui/icons-material/NightsStay';
 import { setLocale, setTheme } from '@containers/App/actions';
 
 import classes from './style.module.scss';
+import { ListItemIcon } from '@mui/material';
+import { Logout } from '@mui/icons-material';
+import { logoutUser } from '@pages/Login/actions';
 
-const Navbar = ({ title, locale, theme }) => {
+const Navbar = ({ title, locale, theme, login }) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [menuPosition, setMenuPosition] = useState(null);
@@ -43,6 +46,15 @@ const Navbar = ({ title, locale, theme }) => {
     navigate('/');
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem('persist:home')
+    localStorage.removeItem('persist:login')
+    dispatch(logoutUser())
+    window.location.reload()
+    navigate('/login')
+  };
+
+  console.log(login);
   return (
     <div className={classes.headerWrapper} data-testid="navbar">
       <div className={classes.contentWrapper}>
@@ -59,6 +71,11 @@ const Navbar = ({ title, locale, theme }) => {
             <div className={classes.lang}>{locale}</div>
             <ExpandMoreIcon />
           </div>
+          {login && (
+            <div className={classes.logout} onClick={handleLogout}>
+              <Logout />
+            </div>
+          )}
         </div>
         <Menu open={open} anchorEl={menuPosition} onClose={handleClose}>
           <MenuItem onClick={() => onSelectLang('id')} selected={locale === 'id'}>

@@ -1,0 +1,36 @@
+@import '@styles/base';
+
+.container {
+    @include center;
+    margin: auto;
+    @include directionY;
+    gap: 2rem;
+
+    .success {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .desc {
+        text-align: center;
+        width: 70%;
+        font-size: 0.7rem;
+    }
+
+    .buttonWrapper {
+        
+        .button {
+            padding: 6px;
+            width: 120px;
+            cursor: pointer;
+            background-color: $purplish-blue;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .button:hover {
+            background-color: rgb(20, 6, 102);
+        }
+    }
+}
