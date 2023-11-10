@@ -29,6 +29,11 @@ export const callAPI = async (endpoint, method, header = {}, params = {}, data =
   });
 };
 
+// ADD VAKSIN
+export const createUserData = (userData) => {
+  return callAPI(urls.vaksin, 'POST', {}, {}, userData)
+}
+
 export const ping = () => callAPI(urls.ping, 'get');
 
 export const fetchAllVaksin = () => {

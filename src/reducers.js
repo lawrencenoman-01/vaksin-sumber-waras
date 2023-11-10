@@ -9,10 +9,12 @@ import homeReducer , { storedKey as storedHomeState } from '@pages/Home/reducer'
 import detailReducer , { storedKey as storedDetailState } from '@pages/Detail/reducer';
 
 import { mapWithPersistor } from './persistence';
+import formReducer, { storedKey as storedFormState } from '@pages/Form/reducer';
 
 const storedReducers = {
   app: { reducer: appReducer, whitelist: storedAppState },
   client: { reducer: clientReducer, whitelist: storedClientState },
+  form: { reducer: formReducer, whitelist: storedFormState },
   home : {reducer : homeReducer , whitelist : storedHomeState},
   detail : {reducer: detailReducer , whitelist: storedDetailState},
   register: { reducer: registerReducer },

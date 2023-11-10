@@ -1,0 +1,37 @@
+@import '@styles/base';
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding-top: 10px;
+
+    .wrapper {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px grey solid;
+        background-color: transparent;
+        @include center;
+
+        .number {
+            color: $marine-blue;
+        }
+    }
+
+    // Active Step
+    .wrapper.active {
+        background-color: $purplish-blue;
+        font-weight: 400;
+        border: 2px $marine-blue solid;
+        .number{
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .container {
+        width: 100%;
+    }
+}

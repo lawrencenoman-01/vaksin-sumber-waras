@@ -1,0 +1,29 @@
+@import '@styles/base';
+
+.container {
+    height: calc(100vh - 70px);
+    @include center;
+    box-sizing: border-box;
+
+    .formContainer {
+        padding: 15px;
+        width: max-content;
+        height: 400px;
+        background-color: white;
+        border-radius: 10px;
+        @include directionY;
+        margin: auto;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .container {
+        padding: 20px;
+
+        .formContainer {
+            width: 90%;
+        
+        }
+    }
+}
