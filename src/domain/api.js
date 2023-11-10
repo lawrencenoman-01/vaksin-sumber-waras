@@ -5,6 +5,7 @@ import request from '@utils/request';
 
 const urls = {
   ping: 'ping.json',
+  vaksin: 'vaksin'
 };
 
 export const callAPI = async (endpoint, method, header = {}, params = {}, data = {}) => {
@@ -26,5 +27,10 @@ export const callAPI = async (endpoint, method, header = {}, params = {}, data =
     return responseAPI;
   });
 };
+
+// ADD VAKSIN
+export const createUserData = (userData) => {
+  return callAPI(urls.vaksin, 'POST', {}, {}, userData)
+}
 
 export const ping = () => callAPI(urls.ping, 'get');

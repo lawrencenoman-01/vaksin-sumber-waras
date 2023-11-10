@@ -5,10 +5,12 @@ import clientReducer, { storedKey as storedClientState } from '@containers/Clien
 import languageReducer from '@containers/Language/reducer';
 
 import { mapWithPersistor } from './persistence';
+import formReducer, { storedKey as storedFormState } from '@pages/Form/reducer';
 
 const storedReducers = {
   app: { reducer: appReducer, whitelist: storedAppState },
   client: { reducer: clientReducer, whitelist: storedClientState },
+  form: { reducer: formReducer, whitelist: storedFormState },
 };
 
 const temporaryReducers = {
