@@ -19,5 +19,14 @@ export default {
   app_stepthree_dose1: 'First Dose',
   app_stepthree_dose2: 'Second Dose',
   app_form_success_title: 'Successfully Added Data!',
-  app_form_success_desc: 'Your vaccine certificate is on its way! Expect it in your inbox within 24 hours.'
+  app_form_success_desc: 'Your vaccine certificate is on its way! Expect it in your inbox within 24 hours.',
+  // Style Languange Olen
+  app_signup: 'START SIGN UP',
+  app_signup_name: 'Name',
+  app_signup_email: 'Email Address',
+  app_signup_password: 'Password',
+
+  app_login: 'WELCOME BACK',
+  app_login_email: 'Email Address',
+  app_login_password: 'Password',
 };

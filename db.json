@@ -17,52 +17,67 @@
       "address": "kokas",
       "dosis1": "sinovac",
       "dosis2": "sinovac",
-      "status": false
+      "status": "sudah"
     },
     {
-      "email": "testdua@gmail.com",
-      "fullName": "test",
-      "address": "asdsa",
-      "phoneNumber": "12312313",
-      "dosis1": "asdsad",
-      "dosis2": "asdsa",
-      "id": 2
+      "id": 2,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
     },
     {
-      "email": "test1212122@gmail.com",
-      "fullName": "asdasd",
-      "address": "asdsa",
-      "phoneNumber": "asdsad",
-      "dosis1": "sad12131231231",
-      "dosis2": "asdsa",
-      "id": 3
+      "id": 3,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
     },
     {
-      "email": "test123@gmail.com",
-      "fullName": "asdads",
-      "address": "asdas",
-      "phoneNumber": "9123212123",
-      "dosis1": "",
-      "dosis2": "Astra Zeneca",
-      "id": 4
+      "id": 4,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "belum"
     },
     {
-      "email": "test777@gmail.com",
-      "fullName": "dsada",
-      "address": "asdas",
-      "phoneNumber": "1231231",
-      "dosis1": "",
-      "dosis2": "",
-      "id": 5
+      "id": 5,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
     },
     {
-      "email": "test@gmail.com",
-      "fullName": "test",
-      "address": "asdas",
-      "phoneNumber": "12312313",
-      "dosis1": "",
-      "dosis2": "",
-      "id": 6
+      "id": 6,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
+    },
+    {
+      "id": 7,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
     }
   ]
 }

@@ -20,4 +20,13 @@ export default {
   app_stepthree_dose2: 'Dosis Kedua',
   app_form_success_title: 'Berhasil Menyimpan Data!',
   app_form_success_desc: 'Sertifikat vaksin akan dikirim melalui email dalam waktu 1 x 24 jam',
+  // Style Languange Olen
+  app_signup: 'MULAI PENDAFTARAN',
+  app_signup_name: 'nama',
+  app_signup_email: 'Alamat Email',
+  app_signup_password: 'Kata Kunci',
+
+  app_login: 'SELAMAT DATANG',
+  app_login_email: 'Alamat Email',
+  app_login_password: 'Kata Kunci',
 };

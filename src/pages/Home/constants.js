@@ -1,0 +1,5 @@
+export const GET_ALL_VAKSIN = 'GET_ALL_VAKSIN'; 
+export const SET_ALL_VAKSIN = 'SET_ALL_VAKSIN'; 
+
+export const DELETE_VAKSIN_BY_ID = 'DELETE_VAKSIN_BY_ID';
+

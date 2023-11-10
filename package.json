@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "start": "vite --host",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "jest --env=jsdom --onlyChanged",
     "test:all": "jest --env=jsdom --all",
-    "server": "json-server --watch db.json"
+    "server": "json-server --watch db.json --port 8080"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
