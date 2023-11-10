@@ -6,7 +6,7 @@ export const initialState = {
   dataUser: null,
 }
 
-export const storedKey = ['dataUser']
+export const storedKey = ['dataUser', 'isLogin']
 
 const loginReducer = (state = initialState, action) =>
   produce(state, (draft) => {
@@ -15,7 +15,7 @@ const loginReducer = (state = initialState, action) =>
         break;
 
       case SET_LOGIN:
-        draft.isLogin = true,
+          draft.isLogin = true,
           draft.dataUser = action.user
         break;
 
