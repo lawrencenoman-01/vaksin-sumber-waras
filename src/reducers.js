@@ -14,7 +14,7 @@ const storedReducers = {
   app: { reducer: appReducer, whitelist: storedAppState },
   client: { reducer: clientReducer, whitelist: storedClientState },
   home : {reducer : homeReducer , whitelist : storedHomeState},
-  detail : {reducer: detailReducer , whitelist: storedDetailState}
+  detail : {reducer: detailReducer , whitelist: storedDetailState},
   register: { reducer: registerReducer },
   login: { reducer: loginReducer, whitelist: storedLoginState },
 };

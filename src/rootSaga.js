@@ -10,7 +10,7 @@ export default function* rootSaga() {
   yield all([
     appSaga(),
     HomeSaga(),
-    DetailSaga()
+    DetailSaga(),
     registerSaga(),
     loginSaga(),
   ]);
