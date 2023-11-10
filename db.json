@@ -6,6 +6,13 @@
       "role": "admin",
       "email": "daffa@gmail.com",
       "password": "daffa12345"
+    },
+    {
+      "fullName": "adi",
+      "role": "user",
+      "email": "adi@gmail.com",
+      "password": "adi12345",
+      "id": 2
     }
   ],
   "vaksin": [
