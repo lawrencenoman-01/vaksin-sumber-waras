@@ -13,6 +13,8 @@ import NightsStayIcon from '@mui/icons-material/NightsStay';
 import { setLocale, setTheme } from '@containers/App/actions';
 
 import classes from './style.module.scss';
+import { ListItemIcon } from '@mui/material';
+import { Logout } from '@mui/icons-material';
 
 const Navbar = ({ title, locale, theme }) => {
   const dispatch = useDispatch();
@@ -43,6 +45,10 @@ const Navbar = ({ title, locale, theme }) => {
     navigate('/');
   };
 
+  const handleLogout = () => {
+    navigate('/login')
+  };
+
   return (
     <div className={classes.headerWrapper} data-testid="navbar">
       <div className={classes.contentWrapper}>
@@ -59,6 +65,9 @@ const Navbar = ({ title, locale, theme }) => {
             <div className={classes.lang}>{locale}</div>
             <ExpandMoreIcon />
           </div>
+          {/* <div className={classes.logout} onClick={handleLogout}> Tambahkan logout */}
+            {/* <Logout /> */}
+          {/* </div> */}
         </div>
         <Menu open={open} anchorEl={menuPosition} onClose={handleClose}>
           <MenuItem onClick={() => onSelectLang('id')} selected={locale === 'id'}>

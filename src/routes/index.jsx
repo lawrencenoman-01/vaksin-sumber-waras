@@ -27,7 +27,7 @@ const routes = [
     name: 'Register',
     protected: false,
     component: Register,
-    layout: MainLayout,
+    // layout: MainLayout,
   },
   {
     path: '/detail/:id',
