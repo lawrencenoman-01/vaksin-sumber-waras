@@ -61,3 +61,13 @@ export const updateVaksinStatusByID = (id, updatedStatus) => {
   //   throw error;
   // }
 };
+// USER
+export const getAllUser = () => {
+  return callAPI(urls.users, "GET")
+}
+export const createUser = (dataUser) => {
+  return callAPI(urls.users, "POST", {}, {}, dataUser)
+}
+export const getUserByEmail = (email) => {
+  return callAPI(`${urls.users}?email=${email}`, "GET")
+}
