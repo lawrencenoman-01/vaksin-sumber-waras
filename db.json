@@ -24,7 +24,67 @@
       "address": "kokas",
       "dosis1": "sinovac",
       "dosis2": "sinovac",
-      "status": false
+      "status": "sudah"
+    },
+    {
+      "id": 2,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
+    },
+    {
+      "id": 3,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
+    },
+    {
+      "id": 4,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "belum"
+    },
+    {
+      "id": 5,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
+    },
+    {
+      "id": 6,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
+    },
+    {
+      "id": 7,
+      "fullName": "olen",
+      "email": "olen@gmail.com",
+      "phoneNumber": "0812345678",
+      "address": "kokas",
+      "dosis1": "sinovac",
+      "dosis2": "sinovac",
+      "status": "sudah"
     }
   ]
 }
